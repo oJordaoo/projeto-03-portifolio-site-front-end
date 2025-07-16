@@ -1,0 +1,78 @@
+/* Paleta de Cores do Site Principal */
+:root {
+  --background-dark: #0F0F18;
+  --background-medium: #1A1A2E;
+  --blue-solid: #007BFF;
+  --purple-glow: rgba(138, 43, 226, 0.8);
+  --white: #F5F5F5;
+  --gray-text: #A9A9A9;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: var(--white);
+    background-color: var(--background-dark);
+    background-image: radial-gradient(ellipse at top, rgba(0, 123, 255, 0.1), var(--background-dark) 70%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha no topo */
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 680px;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid var(--blue-solid);
+    box-shadow: 0 0 20px var(--purple-glow);
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.title {
+    font-size: 1.1rem;
+    color: var(--gray-text);
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link-button {
+    background-color: var(--background-medium);
+    color: var(--white);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    font-weight: 600;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.link-button:hover {
+    transform: scale(1.05);
+    background-color: var(--blue-solid);
+    box-shadow: 0 0 15px var(--purple-glow);
+}
