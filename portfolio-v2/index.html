@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Jordão | Back-end Developer</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <a href="links.html" target="_blank" rel="noopener noreferrer">GJ</a>
+    </div>
+    
+    <nav>
+      <a href="#inicio" class="active"><i class="fas fa-home"></i> Início</a>
+      <a href="#sobre"><i class="fas fa-user"></i> Sobre</a>
+      <a href="#projetos"><i class="fas fa-code"></i> Projetos</a>
+      <a href="#contato"><i class="fas fa-paper-plane"></i> Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <h1>Desenvolvendo <span class="highlight">Soluções</span> para o Futuro Digital.</h1>
+      <p>Desenvolvedor Back-end especialista em criar sistemas robustos, escaláveis e de alta performance que resolvem problemas reais.</p>
+      <a href="#projetos" class="cta-button">Ver Meus Projetos</a>
+    </section>
+
+    <section id="sobre">
+      <div class="sobre-container">
+        <img src="assets/images/foto-perfil.png" alt="Gabriel Jordão" class="foto-perfil" />
+        <div class="sobre-texto">
+          <h2>Sobre Mim</h2>
+          <p>Sou Gabriel Jordão, desenvolvedor full stack com foco em back-end. Tenho paixão por criar APIs eficientes, integrar serviços, otimizar bancos de dados e desenvolver soluções que resolvem problemas reais. Além disso, adoro explorar novas tecnologias como Node.js, Python e bancos NoSQL para tornar projetos mais performáticos e seguros.</p>
+        </div>
+      </div>
+    </section>
+
+    <div id="historiaModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Minha Trajetória</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fas fa-seedling"></i></div>
+            <div class="timeline-content">
+              <h3>O Início da Curiosidade</h3>
+              <p>Nascido em Curitiba, minha jornada com a tecnologia começou cedo. Mais do que apenas jogar, eu era movido por um desejo insaciável de entender como tudo funcionava: dos modems discados aos arquivos de jogos, minha paixão era desvendar a lógica por trás da magia digital.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fas fa-industry"></i></div>
+            <div class="timeline-content">
+              <h3>O Desvio Iluminador</h3>
+              <p>Após um breve período no curso de Direito, a verdadeira epifania veio de um lugar inesperado: operando uma máquina em uma fábrica de móveis. Ali, diante de um software industrial, entendi na prática a conexão entre lógica, automação e a experiência do usuário. Percebi que era aquilo que eu queria construir.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="timeline-content">
+              <h3>A Mudança de Rumo</h3>
+              <p>Essa percepção me guiou para a Engenharia Mecânica na UTFPR, onde o contato com disciplinas de programação foi o catalisador final. A engenharia me deu uma base sólida em sistemas, mas foi no código que encontrei minha vocação, decidindo migrar para Análise e Desenvolvimento de Sistemas.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-icon"><i class="fas fa-globe-americas"></i></div>
+            <div class="timeline-content">
+              <h3>O Foco no Futuro</h3>
+              <p>Hoje, sou um estudante dedicado, focado em dominar paradigmas de programação, arquitetura de software e metodologias ágeis. Em paralelo, aprimoro meu inglês com o objetivo de estar preparado para uma carreira global, pronto para transformar ideias em soluções inovadoras ao redor do mundo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="projetos">
+      <h2>Projetos em Destaque</h2>
+      <p class="projetos-subtitulo">Clique em um projeto para saber mais detalhes técnicos.</p>
+      <div class="cards">
+        <div class="card" data-project-id="otimizador-frete">
+          <i class="fas fa-shipping-fast"></i>
+          <h3>Otimizador de Frete</h3>
+          <p>Algoritmo que calcula a rota mais eficiente para entregas, reduzindo custos e tempo.</p>
+          <i class="fas fa-chevron-down expand-icon"></i>
+        </div>
+        <div class="card" data-project-id="painel-sentimento">
+          <i class="fas fa-smile-beam"></i>
+          <h3>Painel de Sentimento</h3>
+          <p>Análise de sentimento de reviews de produtos em tempo real com visualização de dados.</p>
+          <i class="fas fa-chevron-down expand-icon"></i>
+        </div>
+        <div class="card" data-project-id="portfolio-pessoal">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Portfólio Pessoal</h3>
+          <p>O site que você está navegando, construído para ser rápido, responsivo e interativo.</p>
+          <i class="fas fa-chevron-down expand-icon"></i>
+        </div>
+        <div class="card future-card">
+          <i class="fas fa-plus"></i>
+          <h3>Futuro Projeto</h3>
+          <p>Em breve, mais uma solução inovadora será adicionada aqui.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="contato-container">
+      <h2>Vamos Conversar</h2>
+      <p class="contato-subtitulo">Estou aberto a novas oportunidades e projetos. Se você tem uma ideia ou desafio, vamos construir algo incrível juntos.</p>
+      <div class="contato-info">
+        <a href="mailto:gabrielortiz11072003@gmail.com" class="email-link">gabrielortiz11072003@gmail.com</a>
+      </div>
+      <div class="social-buttons">
+        <a href="https://instagram.com/ojordaoo" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/in/ojordaoo" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/oJordaoo" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://wa.me/41996839224" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

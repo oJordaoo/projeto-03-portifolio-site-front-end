@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  /* Melhora a renderização das fontes */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Garante que os links tenham um cursor de "mãozinha" */
+a, a:hover {
+  cursor: pointer;
+}

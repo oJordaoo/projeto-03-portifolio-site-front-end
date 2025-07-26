@@ -1,0 +1,14 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Code Editor configuration files
+.vscode/
+.idea/
+
+# Log files
+*.log
+npm-debug.log*
+
+# Dependency directories (important for future-proofing)
+node_modules/
